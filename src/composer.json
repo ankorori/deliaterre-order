@@ -5,28 +5,25 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0.2",
+        "php": "^7.3|^8.0",
         "doctrine/dbal": "^3.3",
-        "guzzlehttp/guzzle": "^7.2",
-        "infyomlabs/adminlte-templates": "^4.0",
-        "infyomlabs/laravel-generator": "^4.0",
-        "laravel/framework": "^9.2",
-        "laravel/sanctum": "^2.14.1",
-        "laravel/tinker": "^2.7",
-        "laravelcollective/html": "^6.3"
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "infyomlabs/coreui-templates": "8.0.x-dev",
+        "infyomlabs/laravel-generator": "8.0.x-dev",
+        "laravel/framework": "^8.75",
+        "laravel/sanctum": "^2.11",
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.0",
+        "laravelcollective/html": "^6.2"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.6",
-        "barryvdh/laravel-ide-helper": "^2.12",
-        "beyondcode/laravel-dump-server": "^1.8",
+        "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^6.1",
-        "phpunit/phpunit": "^9.5.10",
-        "roave/security-advisories": "dev-master",
-        "spatie/laravel-ignition": "^1.0",
-        "ucan-lab/laravel-dacapo": "^5.1"
+        "nunomaduro/collision": "^5.10",
+        "phpunit/phpunit": "^9.5.10"
     },
     "autoload": {
         "psr-4": {
